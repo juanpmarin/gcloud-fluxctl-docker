@@ -12,5 +12,5 @@ jobs:
       - run: |
           TAG=latest
           docker build -t $DOCKER_USER/gcloud-fluxctl:$TAG .
-          echo "$DOCKER_PASS" | docker login -u "$DOCKER_USERNAME" --password-stdin
+          echo "$DOCKER_PASS" | docker login --username "$DOCKER_USERNAME" --password-stdin
           docker push $DOCKER_USER/gcloud-fluxctl:$TAG
