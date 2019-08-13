@@ -4,4 +4,4 @@
 * `latest`
 
 ## Overview
-Docker image for GCloud SDK and Flux usage
+Docker image for GCloud SDK, Flux and Sentry CLI usage
