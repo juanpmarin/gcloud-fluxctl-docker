@@ -1,4 +1,4 @@
-# Google Cloud SDK and Flux Client
+# Google Cloud SDK, Flux Client and Sentry CLI
 
 ## Supported tags
 * `latest`
